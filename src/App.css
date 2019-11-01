@@ -1,0 +1,25 @@
+/*Reset*/
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  display: flex;
+}
+
+.side {
+  flex: 1;
+  max-width: 350px;
+}
+
+.main {
+  background-color: #ebeff3;
+  flex: 3;
+}
